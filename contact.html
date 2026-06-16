@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Fortis Security Consult | Confidential Enquiries</title>
+<meta name="description" content="Contact Fortis Security Consult for a confidential discussion about security reviews, bug sweeps, TSCM, or private investigations. All enquiries handled with absolute discretion.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.fortissecurityconsult.com/contact.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+
+  .contact-method {
+    padding: 36px 0;
+    border-bottom: 1px solid rgba(10,26,47,0.1);
+  }
+
+  .contact-method:first-child { border-top: 1px solid rgba(10,26,47,0.1); }
+
+  .contact-method-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .contact-method-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--navy);
+    transition: color 0.2s;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .contact-method-value:hover { color: var(--gold); }
+
+  .contact-method-note {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  /* Simple enquiry form */
+  .enquiry-form { }
+
+  .form-group {
+    margin-bottom: 24px;
+  }
+
+  .form-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(10,26,47,0.2);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(10,26,47,0.25);
+    padding: 10px 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--ink);
+    outline: none;
+    transition: border-color 0.2s;
+    -webkit-appearance: none;
+  }
+
+  .form-input:focus,
+  .form-select:focus,
+  .form-textarea:focus {
+    border-bottom-color: var(--gold);
+  }
+
+  .form-textarea {
+    resize: vertical;
+    min-height: 100px;
+    line-height: 1.6;
+  }
+
+  .form-select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235A5A5A' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 4px center;
+    cursor: pointer;
+  }
+
+  .form-note {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.6;
+    margin-top: 16px;
+    font-style: italic;
+  }
+
+  .form-submit {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--ink);
+    background: var(--gold);
+    border: none;
+    padding: 14px 36px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  .form-submit:hover { background: var(--gold-light); }
+
+  @media (max-width: 960px) {
+    .contact-grid { grid-template-columns: 1fr; gap: 48px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-brand-name">Fortis</span>
+      <span class="nav-brand-division">Security Consult</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="security-reviews.html">Security Reviews</a></li>
+      <li><a href="tscm.html">TSCM &amp; Bug Sweeps</a></li>
+      <li><a href="investigations.html">Investigations</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-contact">
+      <a href="tel:+441323692100" class="nav-tel">01323 692100</a>
+      <a href="contact.html" class="nav-cta">Enquire</a>
+      <a href="https://www.fortissecure.com" class="nav-sister" rel="noopener">Fortis Secure &rarr;</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<header class="page-header" aria-labelledby="page-heading">
+  <div class="page-header-inner">
+    <p class="hero-eyebrow">Contact Fortis Security Consult</p>
+    <h1 class="hero-title" id="page-heading">
+      A private conversation,<br>
+      <em>at your convenience.</em>
+    </h1>
+    <div class="hero-rule"></div>
+    <p class="hero-body">All enquiries are handled in confidence from the first contact. There is no obligation, and no requirement for a prior relationship with Fortis. You may contact us by telephone, email, or by completing the form below.</p>
+  </div>
+</header>
+
+<!-- CONTACT CONTENT -->
+<section class="section-cream section-pad">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Contact methods -->
+      <div>
+        <span class="section-label">How to reach us</span>
+        <h2 class="section-heading" style="margin-bottom:40px;">Direct contact,<br><em>handled discreetly.</em></h2>
+
+        <div class="contact-method">
+          <span class="contact-method-label">Telephone</span>
+          <a href="tel:+441323692100" class="contact-method-value">01323 692100</a>
+          <p class="contact-method-note">Available during business hours. If we are unavailable, please leave a message and we will return your call promptly and in confidence.</p>
+        </div>
+
+        <div class="contact-method">
+          <span class="contact-method-label">Email</span>
+          <a href="mailto:hello@fortissecurityconsult.com" class="contact-method-value" style="font-size:18px;">hello@fortissecurityconsult.com</a>
+          <p class="contact-method-note">For sensitive matters, email is suitable for initial contact. We recommend calling if your enquiry is time-sensitive or you wish to speak with us directly before committing anything to writing.</p>
+        </div>
+
+        <div class="contact-method">
+          <span class="contact-method-label">Response</span>
+          <span class="contact-method-value" style="cursor:default; font-size:18px;">Within one business day</span>
+          <p class="contact-method-note">We aim to respond to all enquiries within one business day. For urgent matters, please call directly.</p>
+        </div>
+
+        <div style="margin-top:48px;">
+          <div class="callout">
+            <span class="callout-label">Confidentiality</span>
+            <p class="callout-text" style="font-size:15px; line-height:1.75;">All information shared with Fortis at the enquiry stage and throughout any instruction is treated as strictly confidential. We do not discuss the existence of client relationships with third parties, and we do not share client information without express consent except where required by law.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:28px; padding:28px; border:1px solid rgba(10,26,47,0.1);">
+          <p class="section-label" style="color:var(--muted); margin-bottom:12px;">Fortis Secure</p>
+          <p style="font-size:13.5px; color:var(--muted); line-height:1.7; margin-bottom:16px;">For close protection, residential security, CCTV installation, or private event security, contact our sister operation directly.</p>
+          <a href="https://www.fortissecure.com" style="font-family:'Barlow Condensed',sans-serif; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold);" rel="noopener">Visit fortissecure.com &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Enquiry form -->
+      <div>
+        <span class="section-label">Enquiry form</span>
+        <h2 class="section-heading" style="margin-bottom:36px;">Tell us what<br><em>you need.</em></h2>
+
+        <form class="enquiry-form" action="https://formspree.io/f/hello@fortissecurityconsult.com" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Fortis Security Consult Enquiry">
+          <input type="text" name="_gotcha" style="display:none">
+
+          <div class="form-group">
+            <label class="form-label" for="name">Your name</label>
+            <input class="form-input" type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email address</label>
+            <input class="form-input" type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="phone">Telephone (optional)</label>
+            <input class="form-input" type="tel" id="phone" name="phone" autocomplete="tel">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="service">Area of interest</label>
+            <select class="form-select" id="service" name="service">
+              <option value="">Please select</option>
+              <option value="security-review">Security review or vulnerability assessment</option>
+              <option value="tscm">TSCM / bug sweep</option>
+              <option value="investigation">Private investigation or surveillance</option>
+              <option value="general">General enquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Brief description of your requirement (optional)</label>
+            <textarea class="form-textarea" id="message" name="message" rows="4" placeholder="A brief note is helpful but not required at this stage."></textarea>
+          </div>
+
+          <p class="form-note">Your enquiry is treated as confidential from the moment it is received. We will not share your details with any third party. You are under no obligation by making contact.</p>
+
+          <button type="submit" class="form-submit">Submit Enquiry</button>
+        </form>
+
+        <p style="font-size:11px; color:var(--muted); margin-top:16px; line-height:1.6; font-style:italic;">Note: this form uses Formspree for delivery. If you prefer not to use a web form, please contact us directly by telephone or email. Both details are on this page.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <span class="footer-brand">Fortis Security Consult &mdash; Fortis Secure Global Solutions Limited</span>
+    <p class="footer-legal">Fortis Secure Global Solutions Limited &copy; 2026. Registered in England and Wales. All enquiries handled in confidence.</p>
+    <div class="footer-contact">
+      <a href="tel:+441323692100">01323 692100</a>
+      <a href="mailto:hello@fortissecurityconsult.com">hello@fortissecurityconsult.com</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+  var links = document.querySelector('.nav-links');
+  if (!links.style.display || links.style.display === 'none') {
+    links.style.cssText = 'display:flex;flex-direction:column;gap:0;position:absolute;top:72px;left:0;right:0;background:rgba(5,14,28,0.98);padding:16px 24px 24px;border-bottom:1px solid rgba(201,169,97,0.15);';
+    links.querySelectorAll('a').forEach(function(a) { a.style.cssText = 'padding:12px 0;border-bottom:1px solid rgba(201,169,97,0.08);font-size:12px;'; });
+  } else { links.style.display = 'none'; }
+});
+</script>
+
+</body>
+</html>
